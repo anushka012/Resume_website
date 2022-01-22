@@ -1,0 +1,122 @@
+body {
+  padding: 2px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+header {
+  background: #008000;
+  background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 30px 50px;
+}
+
+h1 {
+  color: #ccccff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #000000;
+}
+
+nav a{
+  color: #141f1f;
+  text-decoration: none;
+  font-size: 22px;
+  margin: 55px;
+  background-color: rgba(173, 157, 157, 0.4);
+  padding: 15px 55px;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  }
+
+.active {
+  background-color: #ffffff;
+}
+
+.left img {
+  display: block;
+  height: 200px;
+  width: 275px;
+  border: 5px solid #000000;
+  margin:  45px auto;
+  
+}
+
+.left {
+  display: inline-block;
+  width: 25%;
+  background:  #339933;
+  float: left;
+}
+
+.right {
+  display: inline-block;
+  width: 70%;
+  margin-left: 10px;
+  
+}
+table.cal{
+	border-spacing: 2;
+	border-radius: 0;
+	margin-left:auto; 
+    margin-right:auto;
+    height: 50%;
+    font-family: arial, "times new roman", verdana, helvetica;
+    width: 80%;
+
+}
+
+th{
+	text-align: center;
+	background-color: #ADFF2F;
+	padding: 2%;
+    font-variant: small-caps;
+    font-size: 100%;
+    color: #ffffff;
+    line-height: 40px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid #339933;
+}
+th, tr td {
+    text-align: center;
+}
+tr td {
+    opacity: 0.6;
+}
+tr:hover td {
+    opacity: 1;
+    color: #339933;
+    font-weight: bold;
+    font-size:100%;
+    line-height: 60px;
+}
+td {
+    background-color: #90EE90;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 90%;
+    border-bottom: 2px solid #ffffff;
+}
+tr:hover td {
+    opacity: 1;
+    color: #339933;
+    font-weight: bold;
+    font-size:100%;
+    line-height: 60px;
+}
+th:first-child, tr td:first-child {
+    text-align: left;
+}
+
+
+
+

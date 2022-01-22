@@ -1,0 +1,84 @@
+h1{
+	background-color: : blue;
+	font-size: 150%;
+}
+
+header{
+	background-color: : 666666;
+	text-align: center;
+	padding: 15px;
+}
+
+h1{
+	color: #FFFFFF;
+}
+
+nav{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-family: Arial, "Times New Roman", serif;
+}
+nav a{
+	width: 22%;
+	display: inline-block;
+	background: #FFFFFF;
+}
+
+h2{
+	color:#666666;
+	backround: #00B7ea;
+}
+details{
+	font-style: italic;
+}
+
+summary{
+	font-style: normal;
+}
+footer{
+	backround: yellow;
+	clear: both;
+}
+body{
+	background: #B3B3B3;
+	font-size: 150%;
+	margin: 4%;
+}
+/*section{
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+
+}*/
+.half{ /* change in html file in section write <section class="half"> for changes*/
+	width:45%;
+	margin-right: 2%;
+	display: inline-block;
+	float: left;
+}
+.whole{
+	clear: both; /*change the html file in section write <section class="whole"> for changes*/
+}
+img{
+	width: 125px;
+}
+header, footer{
+	background: #666666;/*color will only be visible in header and not in footer as above changes in footer overrides this change. so to change that delete that footer above if needed*/
+	background: -moz-linear-gradient(top,#666666);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
